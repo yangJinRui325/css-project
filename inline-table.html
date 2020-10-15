@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>css布局样式</title>
+  <style>
+    .table {
+      display: inline-table;
+      width: 128px;
+      margin-left: 10px;
+      border: 1px solid #cad5eb;
+    }
+
+    .table > p {
+      display: table-cell;
+    }
+  </style>
+</head>
+<body>
+<div>
+  一行显示的table试试
+  <div class="table">
+    <p>第一行</p>
+    <p>第二行</p>
+  </div>
+</div>
+</body>
+</html>
